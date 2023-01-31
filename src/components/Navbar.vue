@@ -14,7 +14,12 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
-        <li class="nav-item" v-for="(route, index) in routes" :key="index">
+        <li
+          class="nav-item"
+          v-for="(route, index) in routes"
+          :key="index"
+          @click="navbarCollapse"
+        >
           <router-link
             class="nav-link"
             :to="route.path"
@@ -31,13 +36,33 @@
 export default {
   data() {
     return {
-      routes: [{ name: "Bio", path: "/bio", id: "bio" },{ name: "Calendar", path: "/calendar", id: "calendar" },{ name: "CDs", path: "/cds", id: "cds" }],
+      routes: [
+        { name: "Bio", path: "/bio", id: "bio" },
+        { name: "Calendar", path: "/calendar", id: "calendar" },
+        { name: "CDs", path: "/cds", id: "cds" },
+      ],
     };
+  },
+  mounted() {
+    window.eventListener("resize", () => {
+      const navbar = document.getElementById("navbarNav");
+      if (window.innerWidth > 992) {
+        navbar.classList.add("show");
+      } else {
+        navbar.classList.remove("show");
+      }
+    });
   },
   methods: {
     scrollTo(id) {
       let element = document.getElementById(id);
       element.scrollIntoView({ behavior: "smooth" });
+    },
+    navbarCollapse() {
+      if (window.innerWidth < 992) {
+        const navbar = document.getElementById("navbarNav");
+        navbar.classList.remove("show");
+      }
     },
   },
 };
