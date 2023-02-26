@@ -31,7 +31,7 @@ export default {
 <style lang="scss" scoped>
 .main {
   width: 100%;
-  padding: 0 20px;
+  background-color: #000000;
   &__container {
     width: 100%;
     max-width: 1440px;
@@ -41,16 +41,17 @@ export default {
     justify-content: center;
 
     .left-block {
-      width: 30%;
+      width: 50%;
       img {
         width: 100%;
       }
     }
     .right-block {
-      width: 60%;
+      width: 50%;
       p {
         text-align: justify;
         margin-left: 30px;
+        font-size: 19px;
       }
     }
   }

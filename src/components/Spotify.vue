@@ -1,16 +1,18 @@
 <template>
   <div class="main">
-    <h2>DISCOGRAPHY</h2>
-    <iframe
-      style="border-radius: 12px"
-      src="https://open.spotify.com/embed/artist/5KfWFLWIq7WzmVu7JTsMIm?utm_source=generator&theme=0"
-      width="100%"
-      height="340"
-      frameBorder="0"
-      allowfullscreen=""
-      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-      loading="lazy"
-    ></iframe>
+    <div class="main__container">
+      <h2>DISCOGRAPHY</h2>
+      <iframe
+        style="border-radius: 12px"
+        src="https://open.spotify.com/embed/artist/5KfWFLWIq7WzmVu7JTsMIm?utm_source=generator&theme=0"
+        width="100%"
+        height="352"
+        frameBorder="0"
+        allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy"
+      ></iframe>
+    </div>
   </div>
 </template>
 
@@ -24,12 +26,17 @@ export default {
 <style lang="scss" scoped>
 .main {
   width: 100%;
-  max-width: 800px;
-  padding: 0px 20px;
   margin: 0 auto;
-}
-@media (max-width: $desktop-breakpoint-min) {
-  .main {
+  background-color: #000000;
+  background-image: url(../assets/images/wall-bg-v2.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  &__container {
+    max-width: 1100px;
+    margin: 0 auto;
+    h2 {
+      color: #ffffff;
+    }
   }
 }
 </style>

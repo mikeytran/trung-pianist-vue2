@@ -45,7 +45,7 @@ export default {
 
 <style lang="scss" scoped>
 .item {
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid #000000;
   display: flex;
   flex-direction: row;
   margin-top: 1rem;
@@ -54,13 +54,13 @@ export default {
   }
   p {
     text-align: left;
-    font-size: 16px;
+    font-size: 19px;
     line-height: 22px;
     font-weight: bold;
     padding: 0 10px;
 
     span {
-      font-size: 14px;
+      font-size: 16px;
       font-weight: normal;
     }
   }
@@ -100,6 +100,7 @@ export default {
       margin: 5px 0 0;
       padding: 7px;
       max-width: 300px;
+      text-align: center;
       a {
         background-color: hsl(356, 86%, 42%);
         color: #ffffff;
