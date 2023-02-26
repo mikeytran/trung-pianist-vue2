@@ -6,7 +6,7 @@
       <div class="row">
         <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
           <a
-            href="http://localhost:8080/img/piano.834b7e0e.jpg"
+            href="https://trung-pianist.netlify.app/img/piano.33bdc7fb.jpg"
             data-toggle="lightbox"
             data-gallery="gallery"
           >
@@ -17,7 +17,7 @@
             />
           </a>
           <a
-            href="http://localhost:8080/img/piano.834b7e0e.jpg"
+            href="https://trung-pianist.netlify.app/img/img-black.d4c84b11.jpg"
             data-toggle="lightbox"
             data-gallery="gallery"
           >
@@ -30,31 +30,55 @@
         </div>
 
         <div class="col-lg-4 mb-4 mb-lg-0">
-          <img
-            src="../assets/images/gallery/portrait.jpg"
-            class="w-100 shadow-1-strong rounded mb-4 hover-shadow"
-            alt="Portrait closeup"
-          />
+          <a
+            href="https://trung-pianist.netlify.app/img/portrait.78d95c23.jpg"
+            data-toggle="lightbox"
+            data-gallery="gallery"
+          >
+            <img
+              src="../assets/images/gallery/portrait.jpg"
+              class="w-100 shadow-1-strong rounded mb-4 hover-shadow"
+              alt="Portrait closeup"
+            />
+          </a>
 
-          <img
-            src="../assets/images/gallery/piano-landscape.jpg"
-            class="w-100 shadow-1-strong rounded mb-4 hover-shadow"
-            alt="Piano"
-          />
+          <a
+            href="https://trung-pianist.netlify.app/img/piano-landscape.80ee85bf.jpg"
+            data-toggle="lightbox"
+            data-gallery="gallery"
+          >
+            <img
+              src="../assets/images/gallery/piano-landscape.jpg"
+              class="w-100 shadow-1-strong rounded mb-4 hover-shadow"
+              alt="Piano"
+            />
+          </a>
         </div>
 
         <div class="col-lg-4 mb-4 mb-lg-0">
-          <img
-            src="../assets/images/gallery/piano-closeup.jpg"
-            class="w-100 shadow-1-strong rounded mb-4 hover-shadow"
-            alt="Piano performance"
-          />
+          <a
+            href="https://trung-pianist.netlify.app/img/piano-closeup.6691ca07.jpg"
+            data-toggle="lightbox"
+            data-gallery="gallery"
+          >
+            <img
+              src="../assets/images/gallery/piano-closeup.jpg"
+              class="w-100 shadow-1-strong rounded mb-4 hover-shadow"
+              alt="Piano performance"
+            />
+          </a>
 
-          <img
-            src="../assets/images/gallery/portrait-2.jpg"
-            class="w-100 shadow-1-strong rounded mb-4 hover-shadow"
-            alt="Portrait"
-          />
+          <a
+            href="https://trung-pianist.netlify.app/img/portrait-2.f0598335.jpg"
+            data-toggle="lightbox"
+            data-gallery="gallery"
+          >
+            <img
+              src="../assets/images/gallery/portrait-2.jpg"
+              class="w-100 shadow-1-strong rounded mb-4 hover-shadow"
+              alt="Portrait"
+            />
+          </a>
         </div>
       </div>
       <!-- Gallery -->
