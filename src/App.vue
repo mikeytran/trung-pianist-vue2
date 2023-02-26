@@ -6,7 +6,7 @@
     <Calendar v-bind="calendar" />
     <Cds v-bind="cds" />
     <Spotify />
-    <Video />
+    <Videos />
     <Gallery />
   </div>
 </template>
@@ -19,7 +19,7 @@ import Bio from "./components/Bio.vue";
 import Calendar from "./components/Calendar.vue";
 import Cds from "./components/CDs.vue";
 import Spotify from "./components/Spotify.vue";
-import Video from "./components/Video.vue";
+import Videos from "./components/Videos.vue";
 import Gallery from "./components/GalleryCarousel.vue";
 
 export default {
@@ -32,7 +32,7 @@ export default {
     Calendar,
     Cds,
     Spotify,
-    Video,
+    Videos,
     Gallery,
   },
   data() {

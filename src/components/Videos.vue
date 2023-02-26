@@ -1,5 +1,5 @@
 <template>
-  <div class="main">
+  <div class="main" id="videos">
     <div class="main__container">
       <h2>VIDEOS</h2>
       <iframe

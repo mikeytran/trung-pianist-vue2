@@ -40,6 +40,8 @@ export default {
         { name: "Bio", path: "/bio", id: "bio" },
         { name: "Calendar", path: "/calendar", id: "calendar" },
         { name: "CDs", path: "/cds", id: "cds" },
+        { name: "Videos", path: "/videos", id: "videos" },
+        { name: "Gallery", path: "/gallery", id: "gallery" },
       ],
     };
   },
