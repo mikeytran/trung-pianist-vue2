@@ -12,9 +12,10 @@
       <div class="location">
         <p v-html="location"></p>
       </div>
-      <div class="cta__container">
-        <a href="#">{{ ctaText }}</a>
-      </div>
+      <a v-if="ctaText" :href="`${ctaLink}`" class="button" target="_blank">{{
+        ctaText
+      }}</a>
+      <a v-else class="button disabled">MORE INFO</a>
     </div>
   </div>
 </template>
@@ -36,6 +37,10 @@ export default {
       default: "",
     },
     ctaText: {
+      type: String,
+      default: "",
+    },
+    ctaLink: {
       type: String,
       default: "",
     },
@@ -92,19 +97,25 @@ export default {
       max-width: 250px;
       margin: 0 auto;
     }
-    .cta__container {
-      width: 20%;
+    .button {
+      padding: 15px 32px;
       margin: 0 auto;
-      background-color: hsl(356, 86%, 42%);
-      max-height: 40px;
-      margin: 5px 0 0;
-      padding: 7px;
-      max-width: 300px;
       text-align: center;
-      a {
-        background-color: hsl(356, 86%, 42%);
-        color: #ffffff;
-      }
+      text-decoration: none;
+      padding: 7px;
+      display: inline-block;
+      background-color: hsl(356, 86%, 42%);
+      color: #ffffff;
+      max-height: 40px;
+      width: 100%;
+      max-width: 180px;
+      text-align: center;
+    }
+    .disabled {
+      pointer-events: none;
+      cursor: default;
+      background-color: #cccccc;
+      color: #000;
     }
   }
 }
@@ -136,7 +147,7 @@ export default {
         width: 100%;
         margin: 0;
       }
-      .cta__container {
+      .button {
         width: 100%;
         margin: 0;
       }

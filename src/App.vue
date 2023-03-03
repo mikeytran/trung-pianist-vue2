@@ -48,20 +48,21 @@ export default {
             type: "Arctic Chamber Music Festival<br /><span style='font-weight:normal;font-size:16px;'>Chopin Concerto No. 2 in F minor and Chamber Concerts </span>",
             location:
               "Royal Albert Hall<br /><span style='font-weight:normal;font-size:16px;'>London, UK</span>",
-            ctaText: "MORE INFO",
+            ctaLink: "https://google.com",
+            ctaText: "TICKETS",
           },
           two: {
             date: "17LIP<br /><span style='font-weight:normal;font-size:16px;'>2022</span>",
             type: "Recital",
             location:
               "Filharmonia Naradowa<br /><span style='font-weight:normal;font-size:16px;'>Warszawa, Polska</span>",
-            ctaText: "TICKETS",
           },
           three: {
             date: "7AUG<br /><span style='font-weight:normal;font-size:16px;'>2022</span>",
             type: "Recital",
             location:
               "Łazienki Królewskie<br /><span style='font-weight:normal;font-size:16px;'>Warszawa, Polska</span>",
+            ctaLink: "https://google.com",
             ctaText: "MORE INFO",
           },
         },
