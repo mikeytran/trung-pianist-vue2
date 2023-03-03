@@ -80,6 +80,45 @@
             />
           </a>
         </div>
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <a
+            href="https://trung-pianist.netlify.app/img/piano-closeup.6691ca07.jpg"
+            data-toggle="lightbox"
+            data-gallery="gallery"
+          >
+            <img
+              src="../assets/images/gallery/stairs.jpg"
+              class="w-100 shadow-1-strong rounded mb-4 hover-shadow"
+              alt="Piano performance"
+            />
+          </a>
+        </div>
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <a
+            href="https://trung-pianist.netlify.app/img/piano-closeup.6691ca07.jpg"
+            data-toggle="lightbox"
+            data-gallery="gallery"
+          >
+            <img
+              src="../assets/images/gallery/piano-artsy.jpg"
+              class="w-100 shadow-1-strong rounded mb-4 hover-shadow"
+              alt="Piano performance"
+            />
+          </a>
+        </div>
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <a
+            href="https://trung-pianist.netlify.app/img/piano-closeup.6691ca07.jpg"
+            data-toggle="lightbox"
+            data-gallery="gallery"
+          >
+            <img
+              src="../assets/images/gallery/balcony.jpg"
+              class="w-100 shadow-1-strong rounded mb-4 hover-shadow"
+              alt="Piano performance"
+            />
+          </a>
+        </div>
       </div>
       <!-- Gallery -->
     </div>
