@@ -44,7 +44,6 @@ export default {
   flex-direction: row;
   .left-block {
     width: 100%;
-    max-width: 350px;
     img {
       width: 100%;
       max-width: 350px;

@@ -135,15 +135,10 @@ export default {
 <style lang="scss" scoped>
 .main {
   width: 100%;
-  margin: 0 auto;
   background-color: #000000;
   &__container {
-    iframe {
-      width: 100%;
-      max-width: 1100px;
-      display: block;
-      margin: 0 auto;
-    }
+    max-width: 1440px;
+    margin: 0 auto;
   }
 }
 </style>
