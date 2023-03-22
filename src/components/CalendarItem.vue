@@ -15,7 +15,7 @@
       <a v-if="ctaText" :href="`${ctaLink}`" class="button" target="_blank">{{
         ctaText
       }}</a>
-      <a v-else class="button disabled">MORE INFO</a>
+      <a v-else class="button disabled hide">MORE INFO</a>
     </div>
   </div>
 </template>
@@ -117,8 +117,12 @@ export default {
       background-color: #cccccc;
       color: #000;
     }
+    .hide {
+      visibility: hidden;
+    }
   }
 }
+
 @media (max-width: 615px) {
   .item {
     max-width: 500px;

@@ -39,31 +39,68 @@ export default {
     return {
       bio: {
         imageUrl: "bio_img-v2.jpg",
-        text: 'Wietnamski pianista urodzony 30 września 1996 roku w Ha Noi od dziecka mieszkający w Polsce. Aktualnie kontynuuje studia podyplomowe u prof. Katarzyny Popowej-Zydroń w Akademii Muzycznej w Bydgoszczy.<br /><br />Do jego ostatnich osiągnięć należą: zwycięstwo w XVII Ogólnopolskim Festiwalu Pianistycznym „Chopinowskie Interpretacje Młodych” w Koninie-Żychlinie (2021), V nagroda na Ogólnopolskim Konkursie im. Fryderyka Chopina w Warszawie (2020), Grand Prix na Międzynarodowym Konkursie Muzyki Kameralnej w Wietnamie (2019) i III nagroda na Międzynarodowym Konkursie Pianistycznym Karlovac w Chorwacji (2019). W 2021 wziął udział w drugim etapie XVIII Międzynarodowym Konkursie Pianistycznym im. Fryderyka Chopina w Warszawie.<br /><br /> Koncertował w Europie: Niemczech, Francji, Rosji, Ukrainie, Węgrzech i w Polsce, oraz w Stanach Zjednoczonych, Tajlandii, Korei Południowej, Japonii i Wietnamie. W trakcie wystawy światowej "Expo 2020" w Dubaju dał cykl recitali w ramach koncertów NIFC w Polskim Pawilonie. Jako solista wystąpił z Vietnam National Symphony Orchestra, Hanoi Symphonic Orchestra, Orkiestrą Filharmonii Narodowej w Warszawie, # Orkiestrą Polskiego Radia czy Orkiestrą Filharmonii Lubelskiej, m.in. pod batutą takich dyrygentów jak: Le Phi Phi, Honna Tetsuji, Łukasz Borowicz czy Marek Pijarowski. Pianista wykonuje także muzykę kameralną współpracując m.in z Ulysses Quartet, Arod Quartet oraz Arso Quintet. W dotychczasowym dorobku ma występy m.in. na festiwalach im. Artura Rubinsteina w Łodzi (2019), Frost Chopin Piano Festival w Miami (2018, 2019), na koncertach chopinowskich w Żelazowej Woli, Muzeum Fryderyka Chopina czy w Łazienkach Królewskich. <br /><br /> Brał udział w licznych kursach mistrzowskich, prowadzonych między innymi przez: Tatianę Shebanovą, Dang Thai Sona, Kevina Kennera, Dmitri Alexeeva czy Andrzeja Jaśinski.',
+        text: "Vietnamese pianist, born on September 30, 1996 in Ha Noi, living in Poland since childhood. Currently, he is continuing his postgraduate studies under prof. Katarzyna Popowa-Zydroń at the Academy of Music in Bydgoszcz.<br><br>His latest achievements include: victory at the 17th National Piano Festival “Chopin Interpretations of the Young” in Konin-Żychlin (2021), 5th prize at the Polish National Fryderyk Chopin Piano Competition in Warsaw (2020), Grand Prix at the International Chamber Music Competition in Vietnam (2019) and 3rd prize at the Karlovac International Piano Competition in Croatia (2019). In 2021 he participated in the 18th International Fryderyk Chopin Piano Competition in Warsaw.<br><br>He has performed in Europe: Germany, France, Russia, Ukraine, Hungary and Poland, as well as in the United States, Thailand, South Korea, Japan and Vietnam. During the world exhibition “EXPO2020” in Dubai, he gave a series of recitals at the Poland Pavilion.<br><br>As a soloist, he performed with the Vietnam National Symphony Orchestra, Hanoi Symphonic Orchestra, the Warsaw Philharmonic Orchestra, the Polish Radio Orchestra and the Lublin Philharmonic Orchestra, under the baton of conductors such as: Le Phi Phi, Honna Tetsuji, Łukasz Borowicz, Marek Pijarowski, Wojciech Rodek.<br><br>The pianist performs chamber music. He cooperates among others with Ulysses Quartet, Arod Quartet, Arso Quintet.<br><br>He has performed at the festivals: Artur Rubinstein Festival in Łódź (2019), Frost Chopin Piano Festival in Miami (2018, 2019), at the Chopin concerts in Żelazowa Wola, Fryderyk Chopin Museum, as well as in the Royal Łazienki Park.<br><br>He has participated in numerous master classes conducted by Dang Thai Son, Kevin Kenner, Tatiana Shebanowa, Dmitri Alexeev and Andrzej Jasiński.",
       },
       calendar: {
         item: {
           one: {
-            date: "3CZE<br /><span style='font-weight:normal;font-size:16px;'>2022</span>",
-            type: "Arctic Chamber Music Festival<br /><span style='font-weight:normal;font-size:16px;'>Chopin Concerto No. 2 in F minor and Chamber Concerts </span>",
+            date: "26 MAR<br /><span style='font-weight:normal;font-size:16px;'>2023</span>",
+            type: "Ballet Symphony and Orchestra<br /><span style='font-weight:normal;font-size:16px;'>S.Rachmaninoff: Rhapsody on a theme of Paganini Op.43</span>",
             location:
-              "Royal Albert Hall<br /><span style='font-weight:normal;font-size:16px;'>London, UK</span>",
-            ctaLink: "https://google.com",
+              "Ho Chi Minh City Opera House<br /><span style='font-weight:normal;font-size:16px;'>Ho Chi Minh, Vietnam</span>",
+            ctaLink:
+              "https://ticketbox.vn/ticket-booking/86750/widget/72452?fbclid=IwAR0MNvKUcotGSl-h_tZmEhz_KfSyQzhi-5vETyuyQ7diWupeh4MpesD3K38#/step-select-",
             ctaText: "TICKETS",
           },
           two: {
-            date: "17LIP<br /><span style='font-weight:normal;font-size:16px;'>2022</span>",
-            type: "Recital",
+            date: "21 MAY<br /><span style='font-weight:normal;font-size:16px;'>2023</span>",
+            type: "Piano Recital",
             location:
-              "Filharmonia Naradowa<br /><span style='font-weight:normal;font-size:16px;'>Warszawa, Polska</span>",
+              "Nagaoka Lyric Hall<br /><span style='font-weight:normal;font-size:16px;'>Nagaoka, Japan</span>",
+            ctaLink:
+              "https://www.nagaoka-caf.or.jp/lyric/performance/event/230521-2/",
+            ctaText: "TICKETS",
           },
           three: {
-            date: "7AUG<br /><span style='font-weight:normal;font-size:16px;'>2022</span>",
-            type: "Recital",
+            date: "24 MAY<br /><span style='font-weight:normal;font-size:16px;'>2023</span>",
+            type: "Piano Recital",
             location:
-              "Łazienki Królewskie<br /><span style='font-weight:normal;font-size:16px;'>Warszawa, Polska</span>",
-            ctaLink: "https://google.com",
-            ctaText: "MORE INFO",
+              "Maruhon Makkiart Terrace<br /><span style='font-weight:normal;font-size:16px;'>Ishinomaki, Japan</span>",
+            ctaLink: "https://makiart.jp/foevent/event_230524/",
+            ctaText: "TICKETS",
+          },
+          four: {
+            date: "25 MAY<br /><span style='font-weight:normal;font-size:16px;'>2023</span>",
+            type: "Piano Recital",
+            location:
+              "Suntory Hall Blue Rose<br /><span style='font-weight:normal;font-size:16px;'>Tokyo, Japan</span>",
+            ctaLink:
+              "https://www.suntory.com/culture-sports/suntoryhall/schedule/detail/20230525_S_3.html",
+            ctaText: "TICKETS",
+          },
+          five: {
+            date: "9 JULY<br /><span style='font-weight:normal;font-size:16px;'>2023</span>",
+            type: "F.Chopin: Piano Concerto in e-minor Op.11",
+            location:
+              "Hanoi Opera House<br /><span style='font-weight:normal;font-size:16px;'>Hanoi, Vietnam</span>",
+          },
+          six: {
+            date: "12 JULY<br /><span style='font-weight:normal;font-size:16px;'>2023</span>",
+            type: "Piano Recital",
+            location:
+              "Collegium Novum Hall<br /><span style='font-weight:normal;font-size:16px;'>Krakow, Poland</span>",
+          },
+          seven: {
+            date: "22-23 JULY<br /><span style='font-weight:normal;font-size:16px;'>2023</span>",
+            type: "Piano Recital",
+            location:
+              "Chopin Museum<br /><span style='font-weight:normal;font-size:16px;'>Warsaw, Poland</span>",
+          },
+          eight: {
+            date: "30 JULY<br /><span style='font-weight:normal;font-size:16px;'>2023</span>",
+            type: "Piano Recital",
+            location:
+              "Royal Lazienki Park<br /><span style='font-weight:normal;font-size:16px;'>Warsaw, Poland</span>",
           },
         },
       },

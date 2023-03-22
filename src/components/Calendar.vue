@@ -1,11 +1,13 @@
 <template>
   <div id="calendar" class="main">
-    <h2>KALENDARZ</h2>
+    <h2>CALENDAR</h2>
     <div class="main__container">
       <div class="items">
-        <CalendarItem v-bind="item.one" />
-        <CalendarItem v-bind="item.two" />
-        <CalendarItem v-bind="item.three" />
+        <CalendarItem
+          v-for="key in Object.keys(item)"
+          :key="key"
+          v-bind="item[key]"
+        />
       </div>
     </div>
   </div>
