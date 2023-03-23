@@ -4,7 +4,6 @@
     <Home />
     <Bio v-bind="bio" />
     <Calendar v-bind="calendar" />
-    <Cds v-bind="cds" />
     <Spotify />
     <Videos />
     <Gallery />
@@ -17,7 +16,6 @@ import Home from "./components/Home.vue";
 import Navbar from "./components/Navbar.vue";
 import Bio from "./components/Bio.vue";
 import Calendar from "./components/Calendar.vue";
-import Cds from "./components/CDs.vue";
 import Spotify from "./components/Spotify.vue";
 import Videos from "./components/Videos.vue";
 import Gallery from "./components/GalleryCarousel.vue";
@@ -30,7 +28,6 @@ export default {
     Navbar,
     Bio,
     Calendar,
-    Cds,
     Spotify,
     Videos,
     Gallery,
@@ -104,16 +101,16 @@ export default {
           },
         },
       },
-      cds: {
-        item: {
-          one: {
-            imageUrl: "cd-image.png",
-            date: "CD - June 3, 2022",
-            type: "Chopin",
-            desc: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-          },
-        },
-      },
+      // cds: {
+      //   item: {
+      //     one: {
+      //       imageUrl: "cd-image.png",
+      //       date: "CD - June 3, 2022",
+      //       type: "Chopin",
+      //       desc: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+      //     },
+      //   },
+      // },
     };
   },
 };

@@ -1,5 +1,5 @@
 <template>
-  <div class="main">
+  <div id="spotify" class="main">
     <div class="main__container">
       <h2>DISCOGRAPHY</h2>
       <iframe
