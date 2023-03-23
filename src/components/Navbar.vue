@@ -39,7 +39,7 @@ export default {
       routes: [
         { name: "Bio", path: "/bio", id: "bio" },
         { name: "Calendar", path: "/calendar", id: "calendar" },
-        { name: "CDs", path: "/cds", id: "cds" },
+        { name: "Discography", path: "/discography", id: "spotify" },
         { name: "Videos", path: "/videos", id: "videos" },
         { name: "Gallery", path: "/gallery", id: "gallery" },
       ],

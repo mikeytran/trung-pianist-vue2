@@ -1,11 +1,23 @@
 <template>
-  <div id="home" class="main"></div>
+  <div id="home" class="main">
+    <div class="imgContainer">
+      <img
+        src="@/assets/images/cd-image.png"
+        alt="CD"
+        @click="scrollToSection"
+      />
+    </div>
+  </div>
 </template>
 
 <script>
 export default {
-  name: "Home",
-  props: {},
+  methods: {
+    scrollToSection() {
+      const targetSection = document.getElementById("spotify");
+      targetSection.scrollIntoView({ behavior: "smooth" });
+    },
+  },
 };
 </script>
 
@@ -20,5 +32,38 @@ export default {
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
+  .imgContainer {
+    position: absolute;
+    top: 90px;
+    right: 50px;
+    img {
+      width: 100%;
+      max-width: 300px;
+      border: 1px solid #ffffff;
+    }
+  }
+}
+
+@media (max-width: $desktop-breakpoint-min) {
+  .main {
+    .imgContainer {
+      right: 30px;
+      img {
+        max-width: 200px;
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .main {
+    .imgContainer {
+      top: 80px;
+      right: 20px;
+      img {
+        max-width: 150px;
+      }
+    }
+  }
 }
 </style>
