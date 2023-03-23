@@ -7,6 +7,13 @@
         @click="scrollToSection"
       />
     </div>
+    <div class="arrowContainer">
+      <img
+        src="@/assets/images/down-arrow.png"
+        alt="arrow"
+        @click="scrollToSectionArrow"
+      />
+    </div>
   </div>
 </template>
 
@@ -15,6 +22,10 @@ export default {
   methods: {
     scrollToSection() {
       const targetSection = document.getElementById("spotify");
+      targetSection.scrollIntoView({ behavior: "smooth" });
+    },
+    scrollToSectionArrow() {
+      const targetSection = document.getElementById("bio");
       targetSection.scrollIntoView({ behavior: "smooth" });
     },
   },
@@ -40,6 +51,17 @@ export default {
       width: 100%;
       max-width: 300px;
       border: 1px solid #ffffff;
+      cursor: pointer;
+    }
+  }
+  .arrowContainer {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    img {
+      width: 100%;
+      max-width: 40px;
+      cursor: pointer;
     }
   }
 }
