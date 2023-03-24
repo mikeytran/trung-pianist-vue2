@@ -7,6 +7,7 @@
     <Spotify />
     <Videos />
     <Gallery />
+    <SocialMedia />
   </div>
 </template>
 
@@ -19,6 +20,7 @@ import Calendar from "./components/Calendar.vue";
 import Spotify from "./components/Spotify.vue";
 import Videos from "./components/Videos.vue";
 import Gallery from "./components/GalleryCarousel.vue";
+import SocialMedia from "./components/SocialMedia.vue";
 
 export default {
   name: "App",
@@ -31,6 +33,7 @@ export default {
     Spotify,
     Videos,
     Gallery,
+    SocialMedia,
   },
   data() {
     return {

@@ -73,6 +73,27 @@ p {
       color: #000000;
     }
   }
+  &:nth-of-type(5) {
+    background-color: #000000;
+    h2,
+    p {
+      color: #ffffff;
+    }
+  }
+  &:nth-of-type(6) {
+    background-color: #ffffff;
+    h2,
+    p {
+      color: #000000;
+    }
+  }
+  &:nth-of-type(7) {
+    background-color: #000000;
+    h2,
+    p {
+      color: #ffffff;
+    }
+  }
 }
 
 @media (max-width: 992px) {
