@@ -1,6 +1,6 @@
 <template>
   <div id="contact" class="main">
-    <h2>CONTACT</h2>
+    <h2>CONNECT</h2>
     <div class="main__container">
       <a href="https://www.instagram.com/trung_pianist/" target="_blank">
         <img src="@/assets/images/insta.png" alt="Insta" />

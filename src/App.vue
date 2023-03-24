@@ -8,6 +8,7 @@
     <Videos />
     <Gallery />
     <SocialMedia />
+    <Footer />
   </div>
 </template>
 
@@ -21,6 +22,7 @@ import Spotify from "./components/Spotify.vue";
 import Videos from "./components/Videos.vue";
 import Gallery from "./components/GalleryCarousel.vue";
 import SocialMedia from "./components/SocialMedia.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
   name: "App",
@@ -34,6 +36,7 @@ export default {
     Videos,
     Gallery,
     SocialMedia,
+    Footer,
   },
   data() {
     return {
@@ -104,16 +107,6 @@ export default {
           },
         },
       },
-      // cds: {
-      //   item: {
-      //     one: {
-      //       imageUrl: "cd-image.png",
-      //       date: "CD - June 3, 2022",
-      //       type: "Chopin",
-      //       desc: "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-      //     },
-      //   },
-      // },
     };
   },
 };

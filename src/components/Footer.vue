@@ -1,7 +1,12 @@
 <template>
   <div class="main">
     <div class="main__container">
-      <h2>KONTAKT</h2>
+      <p>
+        Website by:
+        <a href="https://www.linkedin.com/in/mike-tran-uk/" target="_blank"
+          >Mike Tran</a
+        >
+      </p>
     </div>
   </div>
 </template>
@@ -18,12 +23,10 @@ export default {
   width: 100%;
   margin: 0 auto;
   background-color: #000000;
+  padding: 20px 20px 10px;
   &__container {
-    iframe {
-      width: 100%;
-      max-width: 1100px;
-      display: block;
-      margin: 0 auto;
+    p {
+      text-align: center;
     }
   }
 }
