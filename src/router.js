@@ -6,6 +6,7 @@ import Calendar from "./components/Calendar.vue";
 import Spotify from "./components/Spotify.vue";
 import Videos from "./components/Videos.vue";
 import Gallery from "./components/GalleryCarousel.vue";
+import SocialMedia from "./components/SocialMedia.vue";
 
 Vue.use(VueRouter);
 
@@ -32,6 +33,10 @@ export default new VueRouter({
     {
       path: "/gallery",
       component: Gallery,
+    },
+    {
+      path: "/contact",
+      component: SocialMedia,
     },
   ],
 });

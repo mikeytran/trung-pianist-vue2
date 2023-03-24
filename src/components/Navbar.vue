@@ -42,6 +42,7 @@ export default {
         { name: "Discography", path: "/discography", id: "spotify" },
         { name: "Videos", path: "/videos", id: "videos" },
         { name: "Gallery", path: "/gallery", id: "gallery" },
+        { name: "Contact", path: "/contact", id: "contact" },
       ],
     };
   },
