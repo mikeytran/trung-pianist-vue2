@@ -70,7 +70,7 @@
             </a>
 
             <a
-              href="https://trung-pianist.netlify.app/img/portrait-2.f0598335.jpg"
+              href="https://trung-pianist.netlify.app/img/portrait-2.32916e9a.jpg"
               data-toggle="lightbox"
               data-gallery="gallery"
             >
@@ -83,7 +83,7 @@
           </div>
           <div class="col-lg-4 mb-4 mb-lg-0">
             <a
-              href="https://trung-pianist.netlify.app/img/piano-closeup.6691ca07.jpg"
+              href="https://trung-pianist.netlify.app/img/stairs.53c46013.jpg"
               data-toggle="lightbox"
               data-gallery="gallery"
             >
@@ -96,7 +96,7 @@
           </div>
           <div class="col-lg-4 mb-4 mb-lg-0">
             <a
-              href="https://trung-pianist.netlify.app/img/piano-closeup.6691ca07.jpg"
+              href="https://trung-pianist.netlify.app/img/piano-artsy.dbdc96a2.jpg"
               data-toggle="lightbox"
               data-gallery="gallery"
             >
@@ -109,7 +109,7 @@
           </div>
           <div class="col-lg-4 mb-4 mb-lg-0">
             <a
-              href="https://trung-pianist.netlify.app/img/piano-closeup.6691ca07.jpg"
+              href="https://trung-pianist.netlify.app/img/balcony.83a96cc7.jpg"
               data-toggle="lightbox"
               data-gallery="gallery"
             >
