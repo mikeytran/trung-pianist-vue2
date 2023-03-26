@@ -1,6 +1,6 @@
 <template>
   <div id="contact" class="main">
-    <h2>CONTACT</h2>
+    <h2>CONNECT WITH ME</h2>
     <div class="main__container">
       <a href="https://www.instagram.com/trung_pianist/" target="_blank">
         <img src="@/assets/images/insta.png" alt="Insta" />
@@ -51,8 +51,9 @@ export default {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    display: -webkit-flex;
+    -webkit-justify-content: space-between;
     img {
-      width: 100%;
       max-height: 40px;
     }
   }
