@@ -4,27 +4,27 @@
     <div class="main__container">
       <div class="main__container__videos">
         <iframe
-          src="https://www.youtube.com/embed/videoseries?list=PLJjC4LnTQeL4MmoEfEIj7Bq7h6-r6iZIy"
+          src="https://www.youtube.com/embed/-JELnYS9mQc?si=5-0pdMDYxVv2ZVnh"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
         ></iframe>
         <iframe
-          src="https://www.youtube.com/embed/10r5O28JHsQ"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
+          src="https://www.youtube.com/embed/j9H-25vvs6s?si=UDqDg77LFMiP8HCI"
+          allow="autoplay"
         ></iframe>
       </div>
       <div class="main__container__videos">
         <iframe
-          src="https://drive.google.com/file/d/1GvSdY8JzuV1TGjbzmlc7Sd-gL8KlrPQs/preview"
-          allow="autoplay"
-        ></iframe
-        ><iframe
-          src="https://drive.google.com/file/d/1faFXzfYSlXjLYX7dlj7hCnnoaX8p-pNa/preview"
+          src="https://www.youtube.com/embed/zJihSmewC68?si=l_LqS-m0KIyWePDm"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+       <iframe
+          src="https://www.youtube.com/embed/gavky-7I-BU?si=8_fNG5L35bttSaEF"
           allow="autoplay"
         ></iframe>
       </div>

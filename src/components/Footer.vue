@@ -2,7 +2,7 @@
   <div class="main">
     <div class="main__container">
       <div class="left-block">
-        <p>&#169; 2023 Nguyen Viet Trung</p>
+        <p>&#169; 2024 Nguyen Viet Trung</p>
       </div>
       <div class="right-block">
         <p>
