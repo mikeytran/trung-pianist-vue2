@@ -110,7 +110,7 @@ img {
 }
 
 .navbar {
-  padding: 0.5rem 1rem !important;
+  padding: 0.5rem 2rem !important;
 }
 
 .navbar-dark .navbar-toggler {
@@ -121,5 +121,9 @@ img {
 .navbar-expand-lg .navbar-nav .nav-link {
   padding-left: 2rem !important;
   padding-right: 2rem !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:last-child {
+  padding-right: 0 !important;
 }
 </style>
