@@ -77,10 +77,10 @@ export default {
       },
       highlights: {
         item: {
-          one: {
-            date: "22 MAY<br /><span>2026</span>",
-            type: "Piano duo recital with Kevin Kenner",
-          },
+          // one: {
+          //   date: "22 MAY<br /><span>2026</span>",
+          //   type: "Piano duo recital with Kevin Kenner",
+          // },
           two: {
             date: "FEB<br /><span>2026</span>",
             type: "Chopin Effect - series of concerts organized by Chopin Institute",
