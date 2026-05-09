@@ -43,7 +43,7 @@ export default {
   background-size: cover;
   .imgContainer {
     position: absolute;
-    top: 90px;
+    top: 120px;
     right: 50px;
     img {
       width: 100%;
@@ -78,7 +78,7 @@ export default {
 @media (max-width: 500px) {
   .main {
     .imgContainer {
-      top: 80px;
+      top: 120px;
       right: 20px;
       img {
         max-width: 150px;

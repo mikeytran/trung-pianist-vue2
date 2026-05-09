@@ -1,6 +1,11 @@
 <template>
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#home">Viet Trung Nguyen</a>
+    <div class="navbar-brand-container">
+      <a class="navbar-brand" href="#home"
+        ><img src="@/assets/logo.png" alt="NVT" class="nav-logo" /> Viet Trung
+        Nguyen</a
+      >
+    </div>
     <button
       class="navbar-toggler"
       type="button"
@@ -39,6 +44,7 @@ export default {
       routes: [
         { name: "Bio", path: "/bio", id: "bio" },
         { name: "Calendar", path: "/calendar", id: "calendar" },
+        { name: "Highlights", path: "/highlights", id: "highlights" },
         { name: "Discography", path: "/discography", id: "spotify" },
         { name: "Videos", path: "/videos", id: "videos" },
         { name: "Gallery", path: "/gallery", id: "gallery" },
@@ -72,18 +78,31 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.navbar-dark .navbar-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5px;
+  margin: 0;
+}
+
+img {
+  max-width: 80px;
+  margin-bottom: 10px;
+}
+
 .bg-dark {
   background-color: black !important;
 }
 
 .navbar-dark .navbar-brand {
   color: #ffffff !important;
-  font-size: 20px !important;
+  font-size: 18px !important;
 }
 
 .navbar-dark .navbar-nav .nav-link {
   color: #ffffff !important;
-  font-size: 20px !important;
+  font-size: 18px !important;
 }
 
 .navbar-expand-lg .navbar-nav {
@@ -91,7 +110,7 @@ export default {
 }
 
 .navbar {
-  padding: 0.5rem 2rem !important;
+  padding: 0.5rem 1rem !important;
 }
 
 .navbar-dark .navbar-toggler {

@@ -4,6 +4,7 @@
     <Home />
     <Bio v-bind="bio" />
     <Calendar v-bind="calendar" />
+    <Highlights v-bind="highlights" />
     <Spotify />
     <Videos />
     <Gallery />
@@ -18,6 +19,7 @@ import Home from "./components/Home.vue";
 import Navbar from "./components/Navbar.vue";
 import Bio from "./components/Bio.vue";
 import Calendar from "./components/Calendar.vue";
+import Highlights from "./components/Highlights.vue";
 import Spotify from "./components/Spotify.vue";
 import Videos from "./components/Videos.vue";
 import Gallery from "./components/GalleryCarousel.vue";
@@ -32,6 +34,7 @@ export default {
     Navbar,
     Bio,
     Calendar,
+    Highlights,
     Spotify,
     Videos,
     Gallery,
@@ -42,68 +45,65 @@ export default {
     return {
       bio: {
         imageUrl: "bio_img-v2.jpg",
-        text: "Born on September 30, 1996, in Ha Noi, Viet Trung Nguyen's latest achievements include a victory at the 17th National Piano Festival &#8220;Chopin's Interpretations of the Young&#8220; in Konin-Zychlin (2021), 5th prize at the Polish National Frydery Chopin Piano Competition in Warsaw (2020), Grand Prix at the International Chamber Music Competition in Vietnam (2019), and 3rd prize at the Karlovac International Piano Competition in Croatia (2019). In 2021, he participated in the 18th International Fryderyk Chopin Piano Competition in Warsaw.<br><br>He has performed in many countries, such as Germany, France, Russia (Saint Petersburg Philharmonic Grand Hall), Ukraine, Hungary, and Poland, as well as in the United States, Thailand, South Korea (Seoul Arts Center). Japan (Suntory Hall), and Vietnam. During the world exhibition &#8220;EXPO2020&#8220; in Dubai, he gave a series of recitals at the Poland Pavilion.<br><br>As a soloist, he performed with the Sun Symphony Orchestra, the Vietnam National Symphony Orchestra, the Hanoi Symphonic Orchestra, the Ho Chi Minh Ballet Symphony Orchestra, the Japan-Vietnam Festival Orchestra, the Warsaw Philharmonic Orchestra, the Polish Radio Orchestra, the Lublin Philharmonic Orchestra, the Podkarpackie Philharmonic Orchestra under the baton of Honna Tetsuji, Olivier Ochanine, Phi Phi, Tran Vuong Thach, Dong Quang Vinh, Wojciech Czepiel, Łukasz Borowicz, Marek Pijarowski, Wojciech Rodek, and Jacek Rogala.<br><br>As a chamber musician, he collaborated with, among others, the Ulysses Quartet, Arod Quartet, and Arso Quintet.<br><br>He has performed at festivals such as A. Rubinstein in Łódz (2019,2022) and Frost Chopin Festival in Miami (2018, 2019), at Chopin concerts in Zelazowa Wola and the Fryderyk Chopin Museum, as well as at the Royal Lazienki Park. He has participated in numerous master classes by Dang Thai Son, Kevin Kenner, Tatiana Shebanova, Dmitri Alexeev, and Andrzej Jasinski.<br><br>He graduated from his studies under Prof. Katarzyna Popowa-Zydron at the Academy of Music in Bydgoszcz. He continues his Doctor of Musical Arts studies under Prof. Kevin Kenner at Frost School of Music in Miami.",
+        text: "Viet Trung Nguyen is a Vietnamese pianist born in Hanoi who has lived in Poland since childhood. He graduated in 2020 from the Academy of Music in Bydgoszcz, where he studied under Professor Katarzyna Popowa-Zydroń. He is currently continuing his studies with Professor Kevin Kenner at the Frost School of Music.<br><br>His recent achievements include first prize at the 17th National Piano Festival Chopin Interpretations of the Young in Konin-Żychlin (2021), fifth prize at the Polish National Fryderyk Chopin Piano Competition in Warsaw (2020), Grand Prix at the International Chamber Music Competition in Vietnam (2019), and third prize at the Karlovac International Piano Competition in Croatia (2019). In 2021 and 2025, he represented both Vietnam and Poland at the 18th and 19th International Fryderyk Chopin Piano Competition in Warsaw.<br><br>He has performed throughout Europe, including in Germany, France, Denmark, Russia (at the Saint Petersburg Philharmonia), Ukraine, Hungary, and Poland, as well as in the United States, Thailand, South Korea (Seoul Arts Center), Japan (Suntory Hall), and Vietnam. During Expo 2020 in Dubai, he presented a series of recitals at the Poland Pavilion.<br><br>As a soloist, he has appeared with the Vietnam National Symphony Orchestra, Hanoi Symphony Orchestra, Ho Chi Minh City Ballet Symphony Orchestra and Opera, Japan-Vietnam Festival Orchestra, Warsaw Philharmonic Orchestra, Polish Radio Orchestra, and Lublin Philharmonic Orchestra under the baton of conductors including Wojciech Czepiel, Le Phi Phi, Honna Tetsuji, Łukasz Borowicz, Marek Pijarowski, Wojciech Rodek, Jacek Rogala, Dong Quang Vinh, and Tran Vuong Thach.<br>An active chamber musician, he collaborates with ensembles including the Ulysses Quartet, Arod Quartet, and Arso Quintet.<br><br>He has performed at numerous prestigious festivals and venues, including the Artur Rubinstein Festival in Łódź (2019, 2022), the Frost Chopin Piano Festival in Miami (2018, 2019), the Chopin Concerts in Żelazowa Wola, the Fryderyk Chopin Museum, and the Royal Łazienki Park.",
       },
       calendar: {
         item: {
           one: {
-            date: "26 MAR<br /><span style='font-weight:normal;font-size:16px;'>2023</span>",
-            type: "Ballet Symphony and Orchestra<br /><span style='font-weight:normal;font-size:16px;'>S.Rachmaninoff: Rhapsody on a theme of Paganini Op.43</span>",
+            date: "22 MAY<br /><span style='font-weight:normal;font-size:16px;'>2026</span>",
+            type: "Piano duo recital with Kevin Kenner",
             location:
-              "Ho Chi Minh City Opera House<br /><span style='font-weight:normal;font-size:16px;'>Ho Chi Minh, Vietnam</span>",
-            ctaLink:
-              "https://ticketbox.vn/ticket-booking/86750/widget/72452?fbclid=IwAR0MNvKUcotGSl-h_tZmEhz_KfSyQzhi-5vETyuyQ7diWupeh4MpesD3K38#/step-select-",
+              "Ho Guom Opera House<br /><span style='font-weight:normal;font-size:16px;'>Ha Noi, Vietnam</span>",
+            ctaLink: "https://www.orchestars.vn/",
             ctaText: "TICKETS",
           },
           two: {
-            date: "21 MAY<br /><span style='font-weight:normal;font-size:16px;'>2023</span>",
-            type: "Piano Recital",
+            date: "24 MAY<br /><span style='font-weight:normal;font-size:16px;'>2026</span>",
+            type: "Piano duo recital with Kevin Kenner",
             location:
-              "Nagaoka Lyric Hall<br /><span style='font-weight:normal;font-size:16px;'>Nagaoka, Japan</span>",
-            ctaLink:
-              "https://www.nagaoka-caf.or.jp/lyric/performance/event/230521-2/",
+              "Ho Chi Minh Opera House<br /><span style='font-weight:normal;font-size:16px;'>Ho Chi Minh, Vietnam</span>",
+            ctaLink: "https://www.orchestars.vn/",
             ctaText: "TICKETS",
           },
           three: {
-            date: "24 MAY<br /><span style='font-weight:normal;font-size:16px;'>2023</span>",
+            date: "31 MAY<br /><span style='font-weight:normal;font-size:16px;'>2026</span>",
             type: "Piano Recital",
             location:
-              "Maruhon Makkiart Terrace<br /><span style='font-weight:normal;font-size:16px;'>Ishinomaki, Japan</span>",
-            ctaLink: "https://makiart.jp/foevent/event_230524/",
+              "Ho Guom Opera House<br /><span style='font-weight:normal;font-size:16px;'>Hanoi, Vietnam</span>",
+            ctaLink: "https://www.orchestars.vn/",
             ctaText: "TICKETS",
+          },
+        },
+      },
+      highlights: {
+        item: {
+          one: {
+            date: "22 MAY<br /><span>2026</span>",
+            type: "Piano duo recital with Kevin Kenner",
+          },
+          two: {
+            date: "FEB<br /><span>2026</span>",
+            type: "Chopin Effect - series of concerts organized by Chopin Institute",
+          },
+          three: {
+            date: "30-31 JAN<br /><span>2026</span>",
+            type: "Performance with the Tubingen Academy Orchestra, Tubingen, Germany",
           },
           four: {
-            date: "25 MAY<br /><span style='font-weight:normal;font-size:16px;'>2023</span>",
-            type: "Piano Recital",
-            location:
-              "Suntory Hall Blue Rose<br /><span style='font-weight:normal;font-size:16px;'>Tokyo, Japan</span>",
-            ctaLink:
-              "https://www.suntory.com/culture-sports/suntoryhall/schedule/detail/20230525_S_3.html",
-            ctaText: "TICKETS",
+            date: "18 JAN<br /><span>2026</span>",
+            type: "Acecook Concert in Ho Guom Opera house with Vietnam National Symphony Orchestra",
           },
           five: {
-            date: "9 JULY<br /><span style='font-weight:normal;font-size:16px;'>2023</span>",
-            type: "F.Chopin: Piano Concerto in e-minor Op.11",
-            location:
-              "Hanoi Opera House<br /><span style='font-weight:normal;font-size:16px;'>Hanoi, Vietnam</span>",
+            date: "17 JAN<br /><span>2026</span>",
+            type: "Performance with Eric Lu with the Vietnam National Symphony Orchestra and Sun Symphony Orchestra",
           },
           six: {
-            date: "12 JULY<br /><span style='font-weight:normal;font-size:16px;'>2023</span>",
-            type: "Piano Recital",
-            location:
-              "Collegium Novum Hall<br /><span style='font-weight:normal;font-size:16px;'>Krakow, Poland</span>",
+            date: "9 JAN<br /><span>2026</span>",
+            type: "Acecook Concert in Ho Chi Minh Opera House with the Vietnam National Symphony Orchestra",
           },
           seven: {
-            date: "22-23 JULY<br /><span style='font-weight:normal;font-size:16px;'>2023</span>",
-            type: "Piano Recital",
-            location:
-              "Chopin Museum<br /><span style='font-weight:normal;font-size:16px;'>Warsaw, Poland</span>",
-          },
-          eight: {
-            date: "30 JULY<br /><span style='font-weight:normal;font-size:16px;'>2023</span>",
-            type: "Piano Recital",
-            location:
-              "Royal Lazienki Park<br /><span style='font-weight:normal;font-size:16px;'>Warsaw, Poland</span>",
+            date: "21-22 DEC<br /><span>2025</span>",
+            type: "Performance with Tubingen Academy Orchestra in Ho Guom Opera house, Hanoi ",
           },
         },
       },

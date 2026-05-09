@@ -2,7 +2,7 @@
   <div id="contact" class="main">
     <h2>FOLLOW ME</h2>
     <div class="main__container">
-      <a href="https://www.instagram.com/trung_pianist/" target="_blank">
+      <a href="https://www.instagram.com/vtrung.ng/" target="_blank">
         <img src="@/assets/images/insta.png" alt="Insta" />
       </a>
       <a
@@ -13,6 +13,12 @@
       </a>
       <a href="https://www.youtube.com/@TrungNguyen-bc7ln" target="_blank">
         <img src="@/assets/images/yt-icon.png" alt="Youtube" />
+      </a>
+      <a
+        href="https://www.linkedin.com/in/viet-trung-nguyen-70286a212/"
+        target="_blank"
+      >
+        <img src="@/assets/images/linkedin.png" alt="Linkedin" />
       </a>
       <a href="https://www.facebook.com/trungvietnguyenpianist" target="_blank">
         <img src="@/assets/images/fb.png" alt="Facebook" />

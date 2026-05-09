@@ -2,15 +2,15 @@
   <div class="main">
     <div class="main__container">
       <div class="left-block">
-        <p>&#169; 2024 Nguyen Viet Trung</p>
+        <p>&#169; {{ currentYear }} Nguyen Viet Trung</p>
       </div>
       <div class="right-block">
-        <p>
+        <!-- <p>
           Website by:
           <a href="https://www.linkedin.com/in/mike-tran-uk/" target="_blank"
             >Mike Tran</a
           >
-        </p>
+        </p> -->
       </div>
     </div>
   </div>
@@ -20,6 +20,11 @@
 export default {
   name: "Spotify",
   props: {},
+  data() {
+    return {
+      currentYear: new Date().getFullYear(),
+    };
+  },
 };
 </script>
 

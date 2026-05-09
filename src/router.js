@@ -2,6 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Bio from "./components/Bio.vue";
 import Calendar from "./components/Calendar.vue";
+import Highlights from "./components/Highlights.vue";
 // import Cds from "./components/CDs.vue";
 import Spotify from "./components/Spotify.vue";
 import Videos from "./components/Videos.vue";
@@ -21,6 +22,10 @@ export default new VueRouter({
     {
       path: "/calendar",
       component: Calendar,
+    },
+    {
+      path: "/highlights",
+      component: Highlights,
     },
     {
       path: "/discography",

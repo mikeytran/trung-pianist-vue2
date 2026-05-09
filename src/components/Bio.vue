@@ -4,6 +4,16 @@
     <div class="main__container">
       <div class="left-block">
         <img :src="require(`@/assets/images/${imageUrl}`)" />
+        <iframe
+          width="100%"
+          height="315"
+          src="https://www.youtube.com/embed/AkyvZRMME_I?si=oWx3iXlnTF7L1gOx"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
       </div>
       <div class="right-block">
         <p v-html="text"></p>
@@ -44,6 +54,7 @@ export default {
       width: 50%;
       img {
         width: 100%;
+        margin-bottom: 20px;
       }
     }
     .right-block {
