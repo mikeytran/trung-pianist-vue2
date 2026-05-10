@@ -5,12 +5,12 @@
         <p>&#169; {{ currentYear }} Nguyen Viet Trung</p>
       </div>
       <div class="right-block">
-        <p>
+        <!-- <p>
           Website by:
           <a href="https://www.linkedin.com/in/mike-tran-uk/" target="_blank"
             >Mike Tran</a
           >
-        </p>
+        </p> -->
       </div>
     </div>
   </div>
