@@ -53,4 +53,10 @@ export default {
     }
   }
 }
+
+@media (max-width: $desktop-breakpoint-min) {
+  .main {
+    background-position: right;
+  }
+}
 </style>
