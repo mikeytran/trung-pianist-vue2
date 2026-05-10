@@ -44,7 +44,7 @@ export default {
   background-color: #000000;
   background-image: url(../assets/images/wall-bg-v2.png);
   background-repeat: no-repeat;
-  background-position: right center;
+  background-position: top left;
   &__container {
     max-width: 1100px;
     margin: 0 auto;
